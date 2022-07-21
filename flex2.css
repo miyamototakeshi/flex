@@ -24,7 +24,7 @@ main{
   justify-content:center;
 }
 .sidebar{
-  width:300px
+  width:300px;
   background-color:palegreen;
 }
 .content{
@@ -33,4 +33,27 @@ main{
   max-width:700px;
   flex-grow:1;
   display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.content>div{
+  margin:10px;
+  flex-basis:200px;
+  height:130px;
+  background-color:yellow;
+}
+footer{
+  background-color:#6595ed;
+  width:100%;
+  padding:20px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+footer>div{
+  background-color:#66cdaa;
+  margin:10px;
+  height:40px;
+  flex-basis:45%;
+  max-width:600px;
 }
